@@ -1,0 +1,364 @@
+body{
+    font: 'Arial', 'Helvetica', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: white;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: white;
+    color: #23374d;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: 6px solid #1089ff;
+}
+header a{
+    color: #1089ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+header #marca{
+    float: left;
+}
+header #marca h1{
+    margin: 0px;
+    
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .resaltado{
+    color: #1089ff;
+    font-weight: bold; /*hacer la letra negrita*/
+}header .actual a{
+    color: #000;
+}
+#contacto{
+    background: url("../imgs/formulario.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px 0px -30px 0px;
+
+}
+#contacto .contenedor .formulario .formuh .tittle{
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#contacto .formulario{
+    background: rgba(0,0,0,.3);
+    max-width: 650px;
+    width: 90%;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+#contacto .formulario .forml{
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+#contacto .formulario .formim, .formarea{
+    background: rgba(0,0,0,.7);
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #1089ff;
+    width: 630px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+#contacto .formulario .formarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+#contacto .formulario .btn{
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    background: #1089ff;
+    border: none;
+    cursor: pointer;
+    
+}
+#contacto .formulario .btn:hover{
+    background: #23374d;
+}
+
+
+
+header a:hover{
+    color: #d4d7dd;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+#separador{
+    text-align: center;
+    color: white;
+    background-color: #23374d;
+    border-bottom: 6px  solid #1089ff;
+    font-size: 17px;
+}
+
+
+/* cabezera imagenes */
+#cabezera{
+    min-height: 450px;
+    background-image: url('../imgs/cabezera3.jpg');
+    background-position: center;
+    text-align: center;
+    color: white;
+    border-bottom: 6px solid #1089ff;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#cabezera h1{
+    margin-top: 100px;
+    font-weight: 700px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#cabezera p{
+    font-size: 25px;
+}
+
+/* Cajas */
+#cont{
+    margin-top: 20px;
+}
+#cont .contes{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#cont .contes img{
+    width: 90px;
+}
+#cajas{
+    margin-top: 20px;
+}
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#cajas .caja img{
+    width: 90px;
+}
+#box{
+    margin-top: 20px;
+    
+}
+#box .boxes{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}
+#box .boxes img{
+    width: 90px;
+}
+.sociales{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+.sociales li{
+    text-decoration: none;
+}
+.sociales h3{
+    text-transform: uppercase;
+}
+.sociales [class*='fas']{
+    color: white;
+    
+}
+.contenedor [class*=fas]:before{
+    position: relative;
+    top: 3px;
+    right: 7px;
+    
+}
+.sociales [class*='fab']{
+    color: white;
+}
+.contenedor [class*=fab]:before{
+    position: relative;
+    top: 3px;
+    right: 7px;
+}
+
+/* footer y pie de pagina */
+footer{
+    padding: 0px;
+    margin-bottom: -17px;
+    margin-top: 30px;
+    background-color: #1089ff;
+    color: white;
+    text-align: center;
+}
+article#main-colum{
+    float: left;
+    width: 61%;
+}
+article#main-colum h2{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+aside#lateral{
+    float: right;
+    width: 30%;
+    margin-top: 400px;
+}
+aside .blue{
+    color: white;
+    background-color: #1089ff;
+    padding: 15px;
+    margin-top: 10px;
+    border-bottom: 10px;;
+}
+
+
+#main-colum .oscuro{
+    color: white;
+    background-color: #1089ff;
+    font-size: 17px;
+    padding: 15px;
+    margin-top: 10px;
+    border-bottom: 10px;;
+}
+@media screen and (max-width: 700px){
+    header #marca,
+    header nav,
+    header nav li,
+    article#main-colum,
+    article#main-colum img,
+    aside#lateral,
+    #cabezera .contenedor{
+        float: none;
+        text-align: center;
+        width: 100%;
+        
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #contacto button{
+        display: block;
+        width: 100%;
+    }
+    aside#lateral{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 665px){
+    header #marca,
+    header nav,
+    header nav li,
+    article#main-colum,
+    article#main-colum img,
+    aside#lateral,
+    #cabezera .contenedor,
+    .sociales,
+    #cajas .caja,
+    #box .boxes,
+    #cont .contes{
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #contacto button{
+        display: block;
+        width: 100%;
+    }
+    aside#lateral{
+        margin-top: 10px;
+    }
+    .sociales{
+        padding: 2px;
+    }
+    
+    
+}
+@media screen and (max-width: 537px){
+    header #marca,
+    header nav,
+    header nav li,
+    article#main-colum,
+    article#main-colum img,
+    aside#lateral,
+    #cabezera .contenedor,
+    header #marca,
+    header nav,
+    header nav li{
+        display: block;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    
+}
+@media screen and (max-width: 410px){
+    header #marca,
+    header nav,
+    header nav li,
+    article#main-colum,
+    article#main-colum img,
+    aside#lateral,
+    #cabezera .contenedor,
+    header #marca,
+    header nav,
+    header nav li{
+        display: block;
+        text-align: center;
+        width: 100%;
+        
+    }
+    #cabezera h1{
+        text-transform: capitalize;
+    }
+}
